@@ -14,6 +14,7 @@ public class Mobile {
 		driver.findElement(By.id("email")).sendKeys("9884041375");
 		driver.findElement(By.id("pass")).sendKeys("teddy2014"); 
 		driver.findElement(By.id("loginbutton")).click();  
+		driver.quit();
 
 	}
 	
