@@ -2,6 +2,7 @@ import java.util.Scanner;
 class bankInternal{
 	int acno;
 	float bal=0;
+	
 	Scanner get= new Scanner(System.in);
 	bankInternal()
 	{
